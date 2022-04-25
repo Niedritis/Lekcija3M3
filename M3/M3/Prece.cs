@@ -1,6 +1,6 @@
 ﻿namespace M3
 {
-    public class Prece
+    public class Product
     {
         public Product(double height, double width, double weight)
         {
