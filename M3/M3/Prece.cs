@@ -12,5 +12,18 @@
         public double Width { get; }
         public double Weight { get; }
 
+        public void Dimensions()
+        {
+            Console.WriteLine($"Preces augstums {Height} platums {Width} svars {Weight}.");
+
+
+        }
+
+
+
     }
+
+
+
 }
+

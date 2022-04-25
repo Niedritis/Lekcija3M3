@@ -1,12 +1,28 @@
 ﻿using M3;
 
+Product Prece = new Product();
 
-double h = 15;
+Console.WriteLine("Lūdzu, ievadi produkta augstumu");
+string ProductHigh = Console.ReadLine();
 
-double w = 20;
-
-double m = 25;
+double h = double.Parse(ProductHigh);
 
 
-Product Prece = new Product(double h, double w, double m);
+Console.WriteLine("Lūdzu, ievadi produkta platumu");
+string ProductWidth = Console.ReadLine();
+
+double w = double.Parse(ProductWidth);
+
+
+Console.WriteLine("Lūdzu, ievadi produkta svaru");
+string ProductWeight = Console.ReadLine();
+
+double m = double.Parse(ProductWeight);
+
+Prece Dimensions();
+
+
+
+
+
 
