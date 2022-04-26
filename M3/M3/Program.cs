@@ -19,7 +19,8 @@ string ProductWeight = Console.ReadLine();
 
 double Weight = double.Parse(ProductWeight);
 
-Product Apraksts();
+
+Prece.Apraksts();
 
 
 
