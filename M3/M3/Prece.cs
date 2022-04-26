@@ -2,28 +2,30 @@
 {
     public class Product
     {
-        public Product(double height, double width, double weight)
+
+
+        public double Height { get; private set; }
+        public double Width { get; private set; }
+        public double Weight { get; private set; }
+        public Product(double height)
         {
-            Height = h;
-            Width = w;
-            Weight = m;
+            Height = height;
         }
-        public double Height { get; }
-        public double Width { get; }
-        public double Weight { get; }
-
-        public void Dimensions()
+        public void Apraksts()
         {
-            Console.WriteLine($"Preces augstums {Height} platums {Width} svars {Weight}.");
+
+            Console.WriteLine($"Preces augstums ir {Height}");
 
 
         }
+        //public Product CreateNewProduct(double productHeight)
+        //{
+        //    Product myNewProduct = new Product(productHeight);
+        //    return myNewProduct;
+        //}
+
 
 
 
     }
-
-
-
 }
-

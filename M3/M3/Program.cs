@@ -3,23 +3,23 @@
 Product Prece = new Product();
 
 Console.WriteLine("Lūdzu, ievadi produkta augstumu");
-string ProductHigh = Console.ReadLine();
+string ProductHeight = Console.ReadLine();
 
-double h = double.Parse(ProductHigh);
+double Height = double.Parse(ProductHeight);
 
 
 Console.WriteLine("Lūdzu, ievadi produkta platumu");
 string ProductWidth = Console.ReadLine();
 
-double w = double.Parse(ProductWidth);
+double Width = double.Parse(ProductWidth);
 
 
 Console.WriteLine("Lūdzu, ievadi produkta svaru");
 string ProductWeight = Console.ReadLine();
 
-double m = double.Parse(ProductWeight);
+double Weight = double.Parse(ProductWeight);
 
-Prece Dimensions();
+Product Apraksts();
 
 
 
